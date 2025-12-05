@@ -1,6 +1,9 @@
 use axum::{Router, routing::get};
 
 mod handlers;
+mod models;
+mod repositories;
+mod schemas;
 mod state;
 
 use handlers::health::health_check;
